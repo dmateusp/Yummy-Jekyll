@@ -25,6 +25,7 @@ Every single time you will end up at 4 where you will be stuck in an infinite lo
 I thought it would be funny to code it and plot the behavior of the function, so, I coded a recursive function that does exactly what is described on the steps above and then I plotted the result of step 2 at each iteration.
 
 Here is the code:
+
 ```python
 from num2words import num2words
 import matplotlib.pyplot as plt
@@ -56,5 +57,4 @@ As you can see, the values all converge to 4 eventually :)
 Thank you for reading :)
 
 ### Here is the original video
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=https://youtu.be/csInNn6pfT4
-" target="_blank"><img src="http://img.youtube.com/vi/https://youtu.be/csInNn6pfT4/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=csInNn6pfT4" target="_blank"><img src="http://img.youtube.com/vi/csInNn6pfT4/0.jpg" alt="Fixed points" width="240" height="180" border="10" /></a>
