@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Four is a cosmic number
-category: Data Science
+category: Python
 tags: [Python, matplotlib]
 ---
 
