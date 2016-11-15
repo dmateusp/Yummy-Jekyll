@@ -26,6 +26,7 @@ I thought it would be funny to code it and plot the behavior of the function, so
 
 Here is the code:
 
+
 ```python
 from num2words import num2words
 import matplotlib.pyplot as plt
@@ -48,7 +49,8 @@ plt.ylabel("numerical value")
 plt.show()
 ```
 
-Here is the graph for all the integers in [0, 1, 2, 3... , 99, 100].
+
+## Graph for all the integers in [0, 1, 2, 3... , 99, 100].
 
 ![alt text](https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAd1AAAAJGQxNTEyNmQ0LWYyYWMtNGI4Ni04MzFkLTRjNjU3Y2UyYjk0MQ.png "Plot for x in [0, 1, 2,... 100]")
 
@@ -56,5 +58,5 @@ As you can see, the values all converge to 4 eventually :)
 
 Thank you for reading :)
 
-### Here is the original video
+### Original video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=csInNn6pfT4" target="_blank"><img src="http://img.youtube.com/vi/csInNn6pfT4/0.jpg" alt="Fixed points" width="240" height="180" border="10" /></a>
