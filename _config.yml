@@ -87,7 +87,7 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [C++, Python, Scala, C#, PostGreSQL, MySQL, Oracle, SQLite, PL/SQL]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, PHP, MongoDB]
-skill_mobile_app_keywords: [Android]
+skill_coding_keywords: [C++, Python, Scala, C#]
+skill_database_keywords: [PostGreSQL, MySQL, Oracle, SQLite, NoSQL, MongoDB]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, PHP, Django, ASP.NET]
+skill_datascience_keywords: [Jupyter, pandas, matplotlib]
