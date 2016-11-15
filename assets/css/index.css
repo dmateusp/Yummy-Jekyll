@@ -10,7 +10,7 @@
 }
 
 .site-header .site-header-nav-item {
-    color: #fff;
+    color: #9acfea;
 }
 
 .site-header a:hover {
@@ -30,5 +30,5 @@
 }
 
 .site-header.site-header-nav-scrolled a:hover {
-    color: black;
+    color: #4183c4;
 }
