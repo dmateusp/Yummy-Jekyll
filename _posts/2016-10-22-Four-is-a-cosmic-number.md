@@ -50,7 +50,7 @@ plt.show()
 ```
 
 
-## Graph for all the integers in [0, 1, 2, 3... , 99, 100].
+### Graph for all the integers in [0, 1, 2, 3... , 99, 100].
 
 ![alt text](https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAd1AAAAJGQxNTEyNmQ0LWYyYWMtNGI4Ni04MzFkLTRjNjU3Y2UyYjk0MQ.png "Plot for x in [0, 1, 2,... 100]")
 
