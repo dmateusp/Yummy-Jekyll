@@ -1,0 +1,144 @@
+*{
+  font-family:Microsoft YaHei,"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+html,body{
+     margin: 0; padding: 0;
+     height: 100%; min-height: 100%;
+     overflow: hidden;
+}
+#one{
+  position: absolute; top: 0px; left: 0px;
+  width: 100%; height: 100%;
+  background-color: black;
+  padding:20px;
+}
+#mail{
+  font-size: 85px;
+}
+#one h1{
+  font-size : 63px;
+  align-content: center;
+}
+.right{
+  right:25px;
+}
+.site-header-brand{
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 38px;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  top: 0px;
+  transition: font-size 0.5s ease;
+  position:absolute;
+  float: right;
+}
+.site-header-brand:hover{
+  font-size: 43px;
+  transition: font-size 0.5s ease;
+}
+.hvr-grow {     
+  display: inline-block;
+    vertical-align: middle;
+    font-size:20px;
+    transition: font-size 0.5s ease;
+}
+.hvr-grow:hover{
+  font-size:25px;
+  transition: font-size 0.5s ease;
+}
+#two {
+    position: absolute;
+    top: 0 px; width: 100%; height: 100%;
+  background-color: #F60;
+}
+#three {
+  position: absolute; left: 0px;
+  width: 100%; height: 100%;
+  background-color: #F0F;
+}
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+a {
+    background-color: transparent;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: black;
+}
+body {
+  color: #fff;
+  text-align: center;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  vertical-align: middle;
+  display: table-cell;
+}
+.cover-container {
+  vertical-align: middle;
+  display: table-cell;
+
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+@media (min-width: 768px) {
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .cover-container {
+    width: 700px;
+  }
+}
